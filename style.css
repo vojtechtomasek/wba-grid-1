@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header1 header2 header3"
+        "header1 content1 content2"
+        "footer1 footer2 footer2";
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;
+    /* grid-template-columns: auto auto auto;*/
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: rgb(59, 59, 255);
+}
+
+.item1{
+    grid-area: header1;
+}
+
+.item7{
+    grid-area: footer2;
+}
+
+/* .item1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+
+.item7 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+} */
+
